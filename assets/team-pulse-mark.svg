@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="title desc">
+  <title id="title">TeamPulse</title>
+  <desc id="desc">A pulse line inside a rounded blue square.</desc>
+  <rect width="96" height="96" rx="24" fill="#17243a"/>
+  <path d="M14 51h17l9-20 15 37 10-22h17" fill="none" stroke="#75d2bf" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
