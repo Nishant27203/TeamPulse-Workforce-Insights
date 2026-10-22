@@ -147,7 +147,11 @@ streamlit run app.py
 ```
 
 Streamlit normally opens a browser tab automatically. Otherwise, open the local URL printed in the terminal, usually `http://localhost:8501`.
+## 🚀 Live Demo
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Open%20Dashboard-FF4B4B?logo=streamlit&logoColor=white)](https://teampulse-workforce-insights-9dyhc3kfvayqylzdtbqwsx.streamlit.app/)
+
+**Explore the interactive workforce analytics dashboard live.**
 ### 7. Log in
 
 Enter the username and password from `.streamlit/secrets.toml` (or the environment variables). With the untouched example file, use `analyst` and `pulse-demo-2026`. Use the **Sign out** button in the sidebar to return to the login screen.
