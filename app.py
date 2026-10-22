@@ -63,21 +63,35 @@ st.markdown(
         padding: 1.05rem 1.1rem; box-shadow: 0 5px 18px rgba(23, 32, 51, .045);
         min-height: 112px;
       }
-      [data-testid="stMetricLabel"] { color: #68758b !important; font-size: .83rem; font-weight: 650; }
-      [data-testid="stMetricValue"] { color: #15213a !important; font-weight: 800; letter-spacing: -.035em; }
+      [data-testid="stMetricLabel"] {
+        color: #68758b !important;
+        font-size: .83rem;
+        font-weight: 650;
+      }
+      [data-testid="stMetricValue"] {
+        color: #15213a !important;
+        font-weight: 800;
+        letter-spacing: -.035em;
+      }
       [data-testid="stMetricDelta"] { font-size: .78rem; }
       [data-testid="stForm"] {
         border: 1px solid #e2e8f2; border-radius: 18px; padding: 1.3rem;
         background: #ffffff; box-shadow: 0 12px 34px rgba(23, 32, 51, .06);
       }
-      [data-testid="stDataFrame"] { border: 1px solid #e2e8f2; border-radius: 14px; overflow: hidden; }
+      [data-testid="stDataFrame"] {
+        border: 1px solid #e2e8f2;
+        border-radius: 14px;
+        overflow: hidden;
+      }
       [data-testid="stDownloadButton"] button,
       [data-testid="stFormSubmitButton"] button { border-radius: 10px; font-weight: 650; }
       div[data-baseweb="input"] > div,
       div[data-baseweb="select"] > div,
       div[data-baseweb="textarea"] > div { border-radius: 10px; }
       div[data-testid="stVerticalBlock"] > div:has(> [data-testid="stPlotlyChart"]),
-      div[data-testid="stVerticalBlock"] > div:has(> [data-testid="stImage"]) { border-radius: 16px; }
+      div[data-testid="stVerticalBlock"] > div:has(> [data-testid="stImage"]) {
+        border-radius: 16px;
+      }
       .tp-muted { font-size: .85rem; color: #8490a4; }
       h2, h3 { letter-spacing: -.025em; color: #1c2942; }
       hr { border-color: #e2e8f0; }
